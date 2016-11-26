@@ -1,0 +1,11 @@
+spring:
+    jpa:
+        database: MYSQL
+        hibernate:
+            ddl-auto: Produto
+
+    datasource:
+        url: jdbc:mysql://localhost:3306/produto
+        username: root
+        password: root
+        driver-class-name: com.mysql.jdbc.Driver
